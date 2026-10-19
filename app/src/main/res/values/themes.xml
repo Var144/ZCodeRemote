@@ -1,0 +1,10 @@
+<resources>
+    <!-- DayNight：应用窗口/对话框随系统暗色/亮色切换；去硬编码白色状态栏与浅色图标，
+         由 Material DayNight 在 values-night 下自动给暗色配色 -->
+    <style name="Theme.ZCodeRemote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_dark</item>
+    </style>
+</resources>
